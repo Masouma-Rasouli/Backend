@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 export default async function dbconnect (){
     try{
-        await mongoose.connect("mongodb://127.0.0.1:27017/recordshop")
+        await mongoose.connect("mongodb+srv://masoumarasouli:LG3pwFxptQKh5G8v@cluster0.3ijiugh.mongodb.net/record-shop")
         console.log("connection with database is stablished");
         } 
         catch(err){
